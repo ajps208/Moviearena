@@ -1,0 +1,31 @@
+/* SearchBar.css */
+
+.search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar-input {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  .search-bar-button {
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .search-bar-button:hover {
+    background-color: #b2070e;
+  }
+  

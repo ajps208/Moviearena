@@ -1,0 +1,55 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 40px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+  z-index: 100;
+  backdrop-filter: blur(18px); /* Apply a blur effect to the background */
+}
+
+  .logo {
+    width: 200px;
+  }
+  
+  .searchBarContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .searchBarContainer .searchBar {
+    width: 300px;
+    margin-right: 10px;
+  }
+  
+  .avatar {
+    width: 40px;
+    margin-right: 35px;
+  }
+  
+  /* Custom styles for Netflix-like navbar */
+  .navbar {
+    justify-content: space-between;
+  }
+  
+  .searchBarContainer {
+    margin-right: 20px;
+  }
+  
+  .avatar {
+    margin-right: 0;
+    margin-right: 35px;
+  }
+  
+  /* Style to align items to the right */
+  .right-align {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+  
+  
